@@ -1,0 +1,23 @@
+{
+  "name": "Gui Token v2",
+  "symbol": "GUI2",
+  "description": "The updated version of Gui Token.",
+  "seller_fee_basis_points": 0,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Placeholder_view_vector.svg",
+  "external_url": "https://example.com",
+  "attributes": [
+    {
+      "trait_type": "Version",
+      "value": "2.0"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Placeholder_view_vector.svg",
+        "type": "image/png"
+      }
+    ],
+    "category": "image"
+  }
+}
