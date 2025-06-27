@@ -1,23 +1,30 @@
 {
-  "name": "Gui Token v2",
-  "symbol": "GUI2",
-  "description": "The updated version of Gui Token.",
-  "seller_fee_basis_points": 0,
-  "image": "https://lh3.googleusercontent.com/a/ACg8ocJqZZf2IpSPl_94HgO6SztVcOpLj60N6ePGkNTI4v3Y7OAXkkjLwA=s576-c-no",
-  "external_url": "https://example.com",
+  "name": "Gui Token",
+  "symbol": "GUI",
+  "description": "A custom fungible token created for Gui's token swap platform",
+  "image": "https://raw.githubusercontent.com/yourusername/token-metadata/main/gui-token-logo.png",
+  "decimals": 3,
   "attributes": [
     {
-      "trait_type": "Version",
-      "value": "2.0"
+      "trait_type": "Type",
+      "value": "Utility Token"
+    },
+    {
+      "trait_type": "Standard",
+      "value": "SPL Token"
+    },
+    {
+      "trait_type": "Creator",
+      "value": "Gui"
     }
   ],
   "properties": {
     "files": [
       {
-        "uri": "https://lh3.googleusercontent.com/a/ACg8ocJqZZf2IpSPl_94HgO6SztVcOpLj60N6ePGkNTI4v3Y7OAXkkjLwA=s576-c-no",
+        "uri": "https://raw.githubusercontent.com/yourusername/token-metadata/main/gui-token-logo.png",
         "type": "image/png"
       }
     ],
-    "category": "image"
+    "category": "fungible"
   }
 }
